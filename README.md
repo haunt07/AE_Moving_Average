@@ -1,1 +1,2 @@
-# AE_Moving_Average
+# AE Moving Average
+Library filter moving average
