@@ -7,21 +7,28 @@
 simple_moving_average sensor_1(3); //number of time periods is 3
 simple_moving_average sensor_2(5); //number of time periods is 5
 
-void setup(){
+void setup()
+{
+    //example for simple moving average 
     Serial.begin(9600);
-    for(int i=0;i<=10;i++){
+    Serial.println("Sensor 1\nValue\tResult");
+    for (int i = 0; i <= 10; i++)
+    {
         Serial.print(i);
-        Serial.print("\t");
+        Serial.print("\t\t");
         Serial.println(sensor_1.process(i)); //add new value and return the result
     }
-    Serial.println("\n");
-    for(int i=0;i<=10;i++){
+    Serial.println("\nSensor 2\nValue\tResult");
+    for (int i = 0; i <= 10; i++)
+    {
         Serial.print(i);
-        Serial.print("\t");
+        Serial.print("\t\t");
         Serial.println(sensor_2.process(i)); //add new value and return the result
     }
 }
 
-void loop(){
+void loop()
+{
+    // put your main code here:
 
 }
