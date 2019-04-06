@@ -1,8 +1,11 @@
+/*
+  https://github.com/haunt07/AE_Moving_Average
+*/
 #ifndef mva
 #define mva
 #include <Arduino.h>
 
-class moving_average
+class simple_moving_average
 {
   private:
     float sum = 0;
@@ -11,7 +14,7 @@ class moving_average
     float *data;
 
   public:
-    moving_average(int jumlah);
+    simple_moving_average(int jumlah);
     float process(float nilai);
 };
 

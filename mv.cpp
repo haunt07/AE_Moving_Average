@@ -1,6 +1,10 @@
+/*
+  https://github.com/haunt07/AE_Moving_Average
+*/
+
 #include "mv.h"
 
-moving_average::moving_average(int jumlah)
+simple_moving_average::simple_moving_average(int jumlah)
 {
     this->jumlah = jumlah;
     this->data = new float[this->jumlah];
@@ -10,7 +14,7 @@ moving_average::moving_average(int jumlah)
     }
 }
 
-float moving_average::process(float nilai)
+float simple_moving_average::process(float nilai)
 {
     this->sum -= this->data[this->index];
     this->sum += nilai;
