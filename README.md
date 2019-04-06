@@ -1,5 +1,5 @@
 # Moving Average
-Library simple moving average for arduino.
+Library simple moving average for arduino
 ## usage
 Declare an object and set the number of time period  
 ```c++
