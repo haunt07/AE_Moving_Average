@@ -2,7 +2,7 @@
   https://github.com/haunt07/AE_Moving_Average
 */
 
-#include "mv.h"
+#include <mv.h>
 
 simple_moving_average sensor_1(3); //number of time periods is 3
 simple_moving_average sensor_2(5); //number of time periods is 5
