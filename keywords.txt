@@ -6,14 +6,14 @@
 # Datatypes (KEYWORD1)
 ###################################
 
-moving_average		KEYWORD1
-mv					KEYWORD1
+simple_moving_average		KEYWORD1
+mv					        KEYWORD1
 
 ###################################
 # Methods and Functions (KEYWORD2)
 ###################################
 
-process				KEYWORD2
+process				        KEYWORD2
 
 ###################################
 # Constants (LITERAL1)
