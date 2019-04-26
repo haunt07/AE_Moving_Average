@@ -1,5 +1,5 @@
 ###################################
-# Syntax Coloring Map For MB_SevenSegment
+# Syntax Coloring Map For AE_Moving_Average
 ###################################
 
 ###################################
